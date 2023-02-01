@@ -22,7 +22,7 @@ function loadXmlData($file)
     foreach($lines as $line) {
         $data = explode("	", $line, 2);
         if (!empty($data[0]) && !empty($data[1])) {
-            $wordList[] = $data[0];
+            $wordList[$data[0]] = 1;
         }
     }
 
@@ -48,8 +48,8 @@ foreach($newFileList as $line) {
             continue;
         }
 
-        if (!in_array($item, $dictList)) {
-            echo trim($item) . "	" . $key . "\n";
+        if (!isset($dictList[$item])) {
+            echo $item . "	" . $key . "\n";
         }
     }
 }

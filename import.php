@@ -49,7 +49,7 @@ foreach($newFileList as $line) {
         }
 
         if (!in_array($item, $dictList)) {
-            echo trim($item) . "¦  " . $key . "\n";
+            echo trim($item) . "	" . $key . "\n";
         }
     }
 }

@@ -20,6 +20,8 @@ patch:
     roseo_maple:
       name: 玫枫 / Roseo Maple
       author: "KyleBing <https://kylebing.cn>"
+      candidate_list_layout: linear
+      text_orientation: horizontal
       alpha: 1.0                                # 候选窗口透明度：符点型数据，小数点形式，不然出错无法正常显示皮肤
       border_height: 5                          # 边距 - 面板上下
       border_width: 0                           # 宽度 - 边框
@@ -84,6 +86,8 @@ patch:
     mojave_dark:
       name: "沙漠夜／Mojave Dark"
       author: "xiehuc <xiehuc@gmail.com>"
+      candidate_list_layout: linear
+      text_orientation: horizontal
       horizontal: true
       inline_preedit: true
       candidate_format: "%c %@"
@@ -108,6 +112,8 @@ patch:
       comment_text_color: 0xdedddd
     apathy:
       author: "LIANG Hai"
+      candidate_list_layout: linear
+      text_orientation: horizontal
       back_color: 0xFFFFFF
       border_height: 0
       border_width: 8
@@ -127,6 +133,8 @@ patch:
       text_color: 0x424242
     aqua:
       author: "佛振 <chen.sst@gmail.com>"
+      candidate_list_layout: linear
+      text_orientation: horizontal
       back_color: 0xeeeceeee
       candidate_text_color: 0x000000
       comment_text_color: 0x5a5a5a
@@ -138,6 +146,8 @@ patch:
       text_color: 0x606060
     azure:
       author: "佛振 <chen.sst@gmail.com>"
+      candidate_list_layout: linear
+      text_orientation: horizontal
       back_color: 0xee8b4e01
       candidate_text_color: 0xffeacc
       comment_text_color: 0xc69664
@@ -148,6 +158,8 @@ patch:
       text_color: 0xcfa677
     clean_white:
       author: "Chongyu Zhu <lembacon@gmail.com>, based on 搜狗「简约白」"
+      candidate_list_layout: linear
+      text_orientation: horizontal
       back_color: 0xeeeeee
       border_height: 6
       border_width: 6
@@ -167,6 +179,8 @@ patch:
       text_color: 0x808080
     dark_temple:
       author: "佛振 <chen.sst@gmail.com>, based on ir_black"
+      candidate_list_layout: linear
+      text_orientation: horizontal
       back_color: 0x222222
       candidate_text_color: 0xd8e3e6
       comment_text_color: 0x606cff
@@ -178,6 +192,8 @@ patch:
       text_color: 0x92f6da
     dust:
       author: "Superoutman <asticosmo@gmail.com>"
+      candidate_list_layout: linear
+      text_orientation: horizontal
       back_color: 0xeeffffff
       border_color: 0xE0B693
       border_height: 3
@@ -202,6 +218,8 @@ patch:
       text_color: 0x9e9e9e
     google:
       author: "skoj <skoj@qq.com>"
+      candidate_list_layout: linear
+      text_orientation: horizontal
       back_color: 0xFFFFFF
       border_color: 0xE2E2E2
       candidate_text_color: 0x000000
@@ -215,6 +233,8 @@ patch:
       text_color: 0x666666
     ink:
       author: "佛振 <chen.sst@gmail.com>"
+      candidate_list_layout: linear
+      text_orientation: horizontal
       back_color: 0xeeffffff
       candidate_text_color: 0x000000
       comment_text_color: 0x5a5a5a
@@ -226,6 +246,8 @@ patch:
       text_color: 0x5a5a5a
     lost_temple:
       author: "佛振 <chen.sst@gmail.com>, based on ir_black"
+      candidate_list_layout: linear
+      text_orientation: horizontal
       back_color: 0xee303030
       comment_text_color: 0xbb82e6ca
       hilited_candidate_back_color: 0x82e6ca
@@ -236,6 +258,8 @@ patch:
       text_color: 0xe8f3f6
     luna:
       author: "佛振 <chen.sst@gmail.com>"
+      candidate_list_layout: linear
+      text_orientation: horizontal
       back_color: 0xdd000000
       candidate_text_color: 0xeceeee
       comment_text_color: 0xa5a5a5
@@ -247,6 +271,8 @@ patch:
       text_color: 0xa5a5a5
     mojave_dark:
       author: "xiehuc <xiehuc@gmail.com>"
+      candidate_list_layout: linear
+      text_orientation: horizontal
       back_color: 0x252320
       border_color: 0x020202
       border_color_width: 0
@@ -272,6 +298,8 @@ patch:
       text_color: 0xdedddd
     psionics:
       author: "雨過之後、佛振"
+      candidate_list_layout: linear
+      text_orientation: horizontal
       back_color: 0x444444
       candidate_text_color: 0xeeeeee
       comment_text_color: 0x808080
@@ -285,6 +313,8 @@ patch:
       text_color: 0xc2c2c2
     purity_of_essence:
       author: "佛振"
+      candidate_list_layout: linear
+      text_orientation: horizontal
       back_color: 0xfafafa
       candidate_text_color: 0x000000
       comment_text_color: 0x808080
@@ -296,6 +326,8 @@ patch:
       text_color: 0x2c2ccc
     purity_of_form:
       author: "雨過之後、佛振"
+      candidate_list_layout: linear
+      text_orientation: horizontal
       back_color: 0x444444
       candidate_text_color: 0xeeeeee
       comment_text_color: 0x808080
@@ -307,6 +339,8 @@ patch:
       text_color: 0xc2c2c2
     solarized_rock:
       author: "Aben <tntaben@gmail.com>, based on Ethan Schoonover's Solarized color scheme"
+      candidate_list_layout: linear
+      text_orientation: horizontal
       back_color: 0x362b00
       border_color: 0x362b00
       candidate_text_color: 0x969483
@@ -319,6 +353,8 @@ patch:
       text_color: 0x8236d3
     starcraft:
       author: "Contralisk <contralisk@gmail.com>, original artwork by Blizzard Entertainment"
+      candidate_list_layout: linear
+      text_orientation: horizontal
       back_color: 0xee000000
       border_color: 0x1010a0
       candidate_text_color: 0x30bb55

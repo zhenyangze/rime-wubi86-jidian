@@ -1,6 +1,9 @@
 patch:
   style:
     color_scheme: apathy # 写当前名，也就是下面皮肤的 name 内容
+    horizontal: true
+    candidate_list_layout: linear
+    text_orientation: horizontal
 
   #-----------------#
   #    颜色使用说明   #

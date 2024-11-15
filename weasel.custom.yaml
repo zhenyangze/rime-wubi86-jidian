@@ -58,6 +58,7 @@ patch:
       name: WhiteAqua
       author: "KyleBing <https://kylebing.cn>"
       creat_time: "2021-07-26"
+      horizontal: true
       back_color: 0xFFFFFF
       border_color: 0xD6D6D6
       text_color: 0x000000
